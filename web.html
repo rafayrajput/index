@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+    <style>
+        .popup {
+            display: none;
+            position: absolute;
+            background-color: rgb(11, 229, 240);
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            width: max-content;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 25px; 
+        }
+
+        .nav-item:hover .popup {
+            display: block;
+        }
+
+        .nav-item:hover a {
+            color: rgb(255, 251, 0);
+        }
+
+        main {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    </style>
+    <title>Your Website</title>
+</head>
+<body class="bg-gray-100 flex flex-col h-screen rounded-full">
+    
+    <div class="relative top-0">
+        <img src="img/lcom (1).png" alt="Beautiful Landscape Image" class="w-full h-auto">
+        
+    </div>
+
+    <div class="absolute top-0 left-0 flex items-center">
+        <img src="img/gradient-coding-logo-template_23-2148809439-removebg-preview.png" alt=""
+             class="w-32 h-32 mr-10 ml-32">
+             
+        <div class="nav-item relative">
+            <a href="#" class="text-white text-1xl font-bold ml-32 hover:underline">🏠 Home</a>
+            <div class="popup">
+                
+                🏠 Home 
+            </div>
+        </div>
+        
+        <div class="nav-item relative">
+            <a href="#" class="text-white text-1xl font-bold ml-12 hover:underline">🆎 About Us</a>
+            <div class="popup">
+                
+               🆎 About Us 
+            </div>
+        </div>
+        
+        <div class="nav-item relative">
+            <a href="#" class="text-white text-1xl font-bold ml-12 hover:underline">☎ Contact Us</a>
+            <div class="popup">
+                
+                ☎ Contact Us
+            </div>
+        </div>
+        
+        <div class="nav-item relative">
+            <a href="#" class="text-white text-1xl font-bold ml-12 hover:underline">💁 Services</a>
+            <div class="popup background-color-black">
+                
+            💁 Services
+            </div>
+        </div>
+        
+        <div class="nav-item relative">
+            <a href="#" class="text-white text-1xl font-bold ml-12 hover:underline">📚 Courses</a>
+            <div class="popup">
+                
+                📚 Courses
+            </div>
+        </div>        
+    </div>
+
+    
+    <main class="flex-1 container mx-32 mr-32 mt-8 bg-gray-800">
+        <div class="ml-32 text-white text-start mt-4 flex items-center">
+            <div class="ml-4">   
+                <a href="#" class="text-blue-500 text-1xl font-bold ml-1 hover:underline">🆎 About Us</a>
+                <h1 class="text-4xl font-bold mb-4"><span class="border-b-2 border-blue-500">HELLO!</span> <br> WE ARE WEB <span class="border-b-2 border-blue-500">DESIGNERS&   DEVELOPERS</h1></span>
+                <p class="text-xl">Explore the latest trends in coding <br> and technology with our expert <br> team.</p>
+                
+                
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-4">
+                    Click me
+                </button>
+            </div>
+            <img src="img/5060585_2668382.jpg" alt="About Us page pic" class="w-96 h-64 ml-10 object-cover bg-cover hover:bg-contain" > <!-- Adjusted image size -->
+        </div>
+    
+        
+        <div class="bg-gray-100 p-4 mt-10 flex-1">
+            <div class="ml- text-black text-center mt-4 items-center">
+                <div class="ml-4">
+                    <a href="#" class="text-blue-500 text-2xl font-bold hover:underline underline">💁 Services</a>
+                    <h2 class="text-2xl font-bold ml-1">
+                        WHAT YOU <span class="border-b-2 border-blue-500">WANT</span> TO MAKE
+                    </h2>
+                    <p class="text-1xl"><br>Lorem Ipsum is simply dummy text of the printing  and typesetting <br>industry. Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500s</p>
+            
+
+
+
+<div class="bg-whtie p-4 mt-10">
+    <div class="grid grid-cols-4 gap-6">
+
+        <div class="bg-green-500 p-4">
+            <img src="img/development.png" alt="development image" 
+            class="ml-14">
+            <h2 class="font-bold text-1xl"><br>DEVELOPMENT</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        
+        <div class="bg-red-500 p-4">
+            <img src="img/UX-design.png" alt="development image" 
+            class="ml-14">
+            <h2 class="font-bold text-1xl"><br>UI UX <br> DESIGNERS</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        
+        
+        
+        <div class="bg-yellow-500 p-4">
+            <img src="img/trend.png" alt="development image" 
+            class="ml-14">
+            <h2 class="font-bold text-1xl"><br>TREND DESIGNERS</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        
+        
+        
+        <div class="bg-blue-900 p-4">
+            <img src="img/development.png" alt="development image" 
+            class="ml-14">
+            <h2 class="font-bold text-1xl"><br>MOBILE APPLICATIONS</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        
+    </div>
+</div> 
+    </main>
+    
+<div class="">
+    <img src="img/Untitled-5.png" alt="another image">
+</div>
+   
+    <footer class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto">
+            
+        </div>
+    </footer>
+</body>
+</html>
